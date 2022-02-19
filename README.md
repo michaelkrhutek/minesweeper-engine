@@ -1,19 +1,19 @@
-# Minesweeper engine
+# Minesweeper entity
 
-Minesweeper engine is a library for creating a logical model of minesweeper game based on Rx.js library.
+Minesweeper entity is a library for creating a logical model of minesweeper game based on Rx.js library.
 
 ## Installation
 
-Use the npmjs package manager [npmjs](https://npmjs.com) to install minesweeper-engine.
+Use the npmjs package manager [npmjs](https://npmjs.com) to install minesweeper-entity.
 
 Npm:
 ```bash
-npm install minesweeper-engine
+npm install minesweeper-entity
 ```
 
 Yarn:
 ```bash
-yarn add minesweeper-engine
+yarn add minesweeper-entity
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ import {
   LocationEntity,
   WorldEntityConfig,
   LocationMarkType,
-} from "../engine";
+} from "minesweeper-entity";
 import React, { useEffect } from "react";
 import { useObservableState } from "observable-hooks";
 import "./reactExample.css";
